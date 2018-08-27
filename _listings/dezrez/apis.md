@@ -7,11 +7,43 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Cash
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cash/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Gets overview of the agent cash account
+  x-api-slug: apiaccountingsystemagentcash-get
+  description: Gets overview of the agent cash account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cash/master/_listings/dezrez/apiaccountingsystemagentcash-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get all postings in the cash account for the agent
+  x-api-slug: apipostingcash-get
+  description: Get all postings in the cash account for the agent.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cash/master/_listings/dezrez/apipostingcash-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Transfer funds between bank accounts (also Deposit
+    Cash/Cheques from Cash Held)
+  x-api-slug: apitransferinteraccount-post
+  description: Transfer funds between bank accounts (also deposit cash/cheques from
+    cash held).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cash/master/_listings/dezrez/apitransferinteraccount-post-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez
